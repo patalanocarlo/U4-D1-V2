@@ -23,5 +23,6 @@ numeroInteroGrandissimo= numeroPiccolo;
         System.out.println(presentazioneDiMe);
         System.out.println(presentazioneDiMe.toUpperCase());
         System.out.println("La stringa inizia con:" + presentazioneDiMe.charAt(0));
+        System.out.println("La stringa inizia con:" + presentazioneDiMe.charAt(2));
     }
 }
