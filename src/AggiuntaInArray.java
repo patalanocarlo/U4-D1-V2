@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class AggiuntaInArray {
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);
+
+
         String[] arrayDiStringhe = new String[5];
         for(int i=0; i< 5;i++) {
 
@@ -28,8 +30,8 @@ public class AggiuntaInArray {
 
             arrayRisultante[5] = arrayDiStringhe[4];
             System.out.println("Risultato finale:");
-                    for(String s : arrayRisultante){
-                System.out.println(s);
+                    for(String stringa : arrayRisultante){
+                System.out.println(stringa);
             };
 value.close();
 

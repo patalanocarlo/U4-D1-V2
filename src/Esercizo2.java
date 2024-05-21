@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Esercizo2 {
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);
+
         System.out.println("Inserisci la prima stringa :");
         String primaStringa= value.nextLine();
 
